@@ -1,0 +1,25 @@
+{
+  "name": "testing-with-react-babel-mocha-expect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './src/**/*.test.js' --compilers js:babel-core/register"
+  },
+  "author": "Tim Gaines",
+  "homepage": "https://timdoes.com/tutorials/react/testing-with-react-babel-mocha-expect",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "expect": "^1.13.4",
+    "mocha": "^2.3.4",
+    "react-addons-test-utils": "^0.14.6"
+  }
+}
